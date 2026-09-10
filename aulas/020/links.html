@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modificando links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            color: brown;
+        }
+
+        a {
+            color: rgb(255, 5, 5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(114, 8, 8);
+        }
+
+        a:hover {
+color: black;
+text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        .ff::before {
+            content: '→';
+        }
+
+         .ff::after {
+         content: '←';
+}
+
+        .ff {
+            color: rgb(14, 117, 14);
+            background-color: rgba(0, 255, 76, 0.486);
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(255, 30, 0, 0.404);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Jessica_Chastain" class="ff">Jessica Chastain</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Eva_Green" class="ff" target="_blank">Eva Green</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Angelina_Jolie" target="_blank">Angelina Jolie</a></li>
+    </ul>
+</body>
+</html>
