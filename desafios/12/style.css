@@ -19,7 +19,7 @@ root {
 
 html, body {
     min-height: 100vh;
-    background-color: rgba(53, 50, 54, 0.144);
+    background-color: rgba(0, 0, 0, 0.144);
     font-family:  verdana, geneva, tahoma, sans-serif;;
 }
 
@@ -52,7 +52,7 @@ section {
 }
 
 section.imagem {
-    background-color: brown;
+    background-color: rgb(14, 0, 0);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
@@ -61,7 +61,6 @@ section.imagem {
 
 section > p {
     padding-bottom: 2em;
-    background-color: rgba(229, 255, 0, 0.089);
     
 }
 
